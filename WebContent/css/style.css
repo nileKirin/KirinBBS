@@ -1,0 +1,314 @@
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #24292e;
+    font-family: "Sawarabi Gothic";
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
+.btn {
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+a.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 300px;
+	margin: 0 auto 20px;
+	padding: 10px;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+}
+a.btn:hover {
+	color: #fff;
+	background: #27acd9;
+}
+
+
+h1 {
+    margin: 30px 0 20px;
+}
+
+h2 {
+    margin: 0 0 20px;
+}
+.navi {
+    position: fixed;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.navi li{
+    float: left;
+    width: 42.5%;
+    text-align: center;
+   	padding : 10px;
+    font-size: 1.2rem;
+    background-color: deepskyblue;
+    margin:0 5%;
+}
+.navi li:last-child{
+	margin :0;
+}
+
+.navi li:hover{
+	opacity : 0.8;
+}
+
+.navi li a{
+	color : floralwhite;
+	display :block;
+}
+
+.baseForm {
+    margin: 0 0 30px;
+}
+
+.baseForm dl {
+    width: 100%;
+    margin : 0 0 15px;
+    position: relative;
+}
+
+.baseForm dl dt{
+    float: left;
+    width: 30%;
+    font-size: 1.2rem;
+}
+.baseForm dl dt span {
+    display: block;
+    font-size: 0.9rem;
+}
+.baseForm dl dd{
+    float: right;
+    width: 65%;
+}
+.baseForm dl dd input{
+    width: 100%;
+}
+.baseForm dl dd p{
+	padding : 5px 0 5px;
+	font-size:0.9rem;
+}
+.baseForm dl dd textarea {
+    width: 100% !important;
+}
+/*   welcome     */
+.welcome ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome p {
+        margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+/*   loginHelp     */
+.loginHelp p{
+    margin: 0 0 5px;
+    font-size: 1.1rem;
+}
+.loginHelp .text{
+    margin: 0 auto 30px;
+}
+/*   main   */
+.main .wrapper{
+	position :relative;
+}
+.main h2 {
+	margin : 0 0 60px;
+
+}
+.main .mainForm {
+    margin-bottom: 20px;
+    text-align:right;
+}
+
+.main .mainForm textarea {
+	resize: vertical;
+	width:100%;
+	height:100px;
+	margin: 0 0 10px;
+}
+
+.main .mainForm button{
+	width :150px;
+	padding:10px;
+}
+
+.main .event {
+	margin : 0 0 30px;
+}
+.main .event li{
+	float:left;
+	width:30%;
+	margin-right:5%;
+	text-align:center;
+    background: #ddd;
+    padding : 10px;
+
+}
+.main .event li:last-child {
+	margin:0;
+}
+
+.main .event li:hover{
+	opacity: 0.8;
+}
+.main .event li a{
+	display: block;
+	font-size:0.9rem;
+    color: currentcolor;
+}
+
+
+
+.main .post-list .post{
+    position: relative;
+    padding: 10px 10px 45px;
+    margin-bottom: 10px;
+    border-style: dashed;
+}
+.main .post-list dt {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.main .post-list dd p{
+    text-align: left;
+}
+.main .post-list dd time {
+    display: block;
+    position: absolute;
+    top: 10;
+    right: 10;
+}
+.main .post-list dd .content {
+	padding : 5px;
+}
+
+.main .post-list dd .delete {
+	position:absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.main .post-list dd .delete a {
+	display: block;
+	border : 1px solid;
+    padding: 5px 10px;
+}
+
+.main .loginUsers dt{
+    font-size: 1.3rem;
+    font-weight:bold;
+    margin: 0 0 10px;
+}
+.main .loginUsers dd ul{
+	margin-bottom: 30px;
+    border: solid;
+    padding: 10px 0;
+}
+.main .loginUsers dd ul li{
+	float : left;
+	width : 50%;
+	padding: 5px 0;
+	font-size:1rem;
+	text-align:center;
+}
+
+
+/*   createAccountResult   */
+.createAccountResult .baseForm {
+	text-align:center;
+}
+/*   createAccountSuccess   */
+
+.createAccountSuccess .wrapper h2{
+	margin-bottom: 60px;;
+}
+.createAccountSuccess .wrapper p{
+	margin-bottom: 30px;;
+}
+
+/*   logout   */
+.logout h2 {
+	margin : 0 0 60px
+}
+.logout p:first-of-type {
+	margin : 0 0 30px
+}
+
+    @media screen and (max-width: 600px) {
+        .wrapper {
+            margin-bottom: 40px;
+        }
+        .baseForm dl {
+            float:none;
+            margin: 0 0 20px;
+        }
+        .baseForm dl dt{
+            float:none;
+            padding: 0;
+            width: 100%;
+        }
+        .baseForm dl dd{
+            float:none;
+            width: 100%;
+        }
+        .baseForm dl dd input{
+            height: 30px;
+        }
+        .baseForm ul {
+            display: block;
+        }
+        /*	main	*/
+        .main .wrapper {
+            margin-bottom: 80px;
+        }
+
+    }
